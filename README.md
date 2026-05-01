@@ -1,7 +1,7 @@
  
 ### What is this?
  
-**ROTK X Face Portrait Tool v10** is a GUI application for **editing character face portraits** in Romance of the Three Kingdoms X (San10) on PC.  
+**ROTK X Face Portrait Tool V1.0** is a GUI application for **editing character face portraits** in Romance of the Three Kingdoms X (San10) on PC.  
 It lets you open game files directly, import replacement images, adjust crop positions, and write changes back to the game files instantly. It can also package your edits into a self-contained `.exe` MOD installer to share with others.
  
 ---
