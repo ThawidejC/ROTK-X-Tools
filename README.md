@@ -157,5 +157,5 @@ Clicking anywhere on each button row (number, title, or subtitle) triggers the a
  
 This tool is provided as-is for personal modding use.  
 ROTK X is a product of KOEI TECMO. This tool is not affiliated with or endorsed by KOEI TECMO.
-<a href="https://info.flagcounter.com/5A3s"><img src="https://s01.flagcounter.com/count2/5A3s/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+<a href="http://s01.flagcounter.com/more/EkF"><img src="https://s01.flagcounter.com/count2/EkF/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 
