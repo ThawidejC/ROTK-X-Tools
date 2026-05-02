@@ -81,6 +81,27 @@ Each tab contains three sub-panels:
 - **Click without drag** = import a new image
 - Right preview panel shows the actual encoded output at game resolution
 ---
+**UPDATE V.1.1*** introduces a **three-stage cascade pipeline** for face portrait editing.  
+When you import an image into the **L panel**, the result automatically flows downstream into the **S panel**, and then into the **T panel** — each stage using the previous stage's cropped output as its source image.
+ 
+---
+ 
+### How the Cascade Works
+ 
+```
+L Panel  (original image, any size / aspect ratio)
+    │  square crop  →  saves as 240×240
+    ▼
+S Panel  (source = L crop result, always 240×240)
+    │  ratio crop  64 : 80  →  saves as 64×80
+    ▼
+T Panel  (source = S crop result, always 64×80)
+    │  ratio crop  31 : 40  →  saves as 31×40 (GrpFaceT)
+    │              32 : 40  →  saves as 32×40 (GpkFaceT)
+    ▼
+ Written to game files on "Apply Set"
+```
+
  
 #### 4. Apply Set Button
  
